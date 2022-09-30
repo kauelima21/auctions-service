@@ -1,0 +1,35 @@
+{
+  "name": "auction-service",
+  "version": "1.0.0",
+  "description": "Serverless aws typescript template",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest"
+  },
+  "dependencies": {
+    "@middy/core": "^3.3.1",
+    "@middy/http-error-handler": "^3.3.1",
+    "@middy/http-event-normalizer": "^3.3.1",
+    "@middy/http-json-body-parser": "^3.3.1",
+    "@middy/validator": "^3.3.4",
+    "aws-sdk": "^2.1212.0"
+  },
+  "devDependencies": {
+    "@serverless/typescript": "^3.21.0",
+    "@types/aws-lambda": "^8.10.103",
+    "@types/node": "^18.7.16",
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "esbuild": "^0.15.7",
+    "eslint": "^8.0.1",
+    "eslint-config-standard-with-typescript": "^22.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "serverless": "^3.22.0",
+    "serverless-esbuild": "^1.32.8",
+    "serverless-pseudo-parameters": "^2.5.0",
+    "typescript": "*",
+    "vitest": "^0.23.1"
+  },
+  "license": "MIT"
+}
